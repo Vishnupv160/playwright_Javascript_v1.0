@@ -1,4 +1,5 @@
 const config = {
+    needRecordandPlayback: false,
     testMethodology: 'TDD',    //values will be BDD or TDD
     bddTags: '@smoke',          //'@Regression','@smoke','@Regression and @smoke','@Regression or @smoke'
     applicationURL: 'https://ecommerce-playground.lambdatest.io/',
