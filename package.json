@@ -1,0 +1,29 @@
+{
+  "name": "autobots-playwright-js",
+  "version": "1.0.3",
+  "description": "Test automation framework build on top of Playwright",
+  "main": "index.js",
+  "scripts": {
+    "start-execution": "node test-runner.js",
+    "start-recording": "node utils/ap-recorder.js"
+  },
+  "author": "VISHNU PV and Sanoj Swaminathan",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@cucumber/pretty-formatter": "1.0.0",
+    "@faker-js/faker": "8.0.2",
+    "@playwright/test": "^1.39.0",
+    "allure-commandline": "2.24.0",
+    "allure-playwright": "^2.8.1",
+    "node-xlsx": "0.23.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.1",
+    "cls": "0.1.5",
+    "exceljs": "^4.4.0",
+    "jsonpath": "^1.1.1"
+  }
+}
